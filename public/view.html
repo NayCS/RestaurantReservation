@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hot Restaurant</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Hot Restaurant </h1>
+            <h3>Current Reservations and Waiting List
+            </h3>
+            <hr>
+            <a href="/home"><button class="btn btn-primary btn-lg"><span class="fa fa-home"></span>
+                    Home </button></a>
+            <a href="/api/reservation"><button class="btn btn-danger btn-lg"><span class="fa fa-list-alt"></span> Make
+                    Reservation </button></a>
+        </div>
+
+
+
+        <div class="card">
+            <div class="card-header">
+                <h3><strong>Current Reservation </strong></h3>
+            </div>
+            <div class="card-body">
+                <ul id="tablelist" class="list-group">
+                    <li class="list-group-item mt-4">
+                        <h2>Table#1</h2>
+                        <hr>
+                        <h2>ID:</h2>
+                        <h2>Name:</h2>
+                        <h2>Email:</h2>
+                        <h2>Phone:</h2>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
